@@ -1,0 +1,27 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    /* justify-content: center; */
+    background-color: black;
+    background-image: url('../data/bgImg.jpeg');
+    background-size: cover;
+}
+
+
+
+.title {
+    font-size: 70px;
+    color: aliceblue;
+    margin-top: 450px;
+}
+
+.title,
+.next {
+    margin-left: 30px;
+}
+
+.link {
+    text-decoration: none;
+}

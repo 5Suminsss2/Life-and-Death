@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 56px;
+    width: 100%;
+    padding: 0 15px; 
+    background-color: rgba(165, 42, 42, 0);
+    box-sizing: border-box;
+}
+
+.contents {
+    display: flex;
+}
