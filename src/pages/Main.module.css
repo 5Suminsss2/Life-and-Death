@@ -1,20 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Black+Ops+One&family=Kumar+One&family=Limelight&family=Notable&family=Rakkas&display=swap');
+
 .info {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    /* justify-content: center; */
-    background-color: black;
-    background-image: url('../data/bgImg.jpeg');
+    justify-content: center;
+    background-color: #171717;
+    background-image: url('../data/bgImg.jpg');
     background-size: cover;
+    font-family: 'Abril Fatface', cursive;
 }
 
 
 
 .title {
     font-size: 70px;
-    color: aliceblue;
-    margin-top: 450px;
+    color: #f0f8ff;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /*행간 설정*/
+    line-height: 1em;
+}
+
+
+.next {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+
 }
 
 .title,
@@ -24,4 +42,6 @@
 
 .link {
     text-decoration: none;
+    color: #171717;
+    font-size: 18px;
 }

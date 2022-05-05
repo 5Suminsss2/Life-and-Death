@@ -8,9 +8,11 @@ function Main() {
             <Header />
 
             <div className={styles.info} >
-                <div className={styles.title}>At the Death's Door</div>
+                <div className={styles.title}>
+                    At the Death's Door
+                </div>
                 <div className={styles.next}>
-                    <Link to="./gallery" className={styles.link}>Enter the gallery</Link>
+                    <Link to="./gallery" className={styles.link}>Enter the Gallery</Link>
                 </div>
             </div>
         </div>

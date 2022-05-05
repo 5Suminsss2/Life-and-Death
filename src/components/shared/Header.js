@@ -1,14 +1,19 @@
+import { Link } from 'react-router-dom';
 import styles from "./Header.module.css";
 
 function Header() {
-    return(
+    return (
         <div className={styles.header}>
             <div>
                 Life and Death
             </div>
             <div className={styles.contents}>
-                <div>프로젝트 설명</div>
-                <div>출처</div>
+                <div>
+                    <Link to="/about" className={styles.items}>About</Link>
+                </div>
+                <div>
+                    <Link to="/source" className={styles.items}>Source</Link>
+                </div>
             </div>
         </div>
     )

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Black+Ops+One&family=Kumar+One&family=Limelight&family=Notable&family=Rakkas&display=swap');
+
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,11 +8,26 @@
     position: fixed;
     height: 56px;
     width: 100%;
-    padding: 0 15px; 
+    padding: 0 15px;
     background-color: rgba(165, 42, 42, 0);
     box-sizing: border-box;
+
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
 }
 
 .contents {
     display: flex;
+}
+
+.items {
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #171717;
+}
+
+.items:hover {
+    background-color: #e7e7e7;
 }
