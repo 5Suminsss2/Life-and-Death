@@ -1,17 +1,29 @@
-import Header from '../components/shared/Header';
+import { Link } from 'react-router-dom';
 import styles from "./Select.module.css";
+import Layout from '../components/shared/Layout';
 
 function SelectWar() {
-    return(
-        <div>
-            <Header/>
-            <div>
-                select the war
-            </div>
-            <div>
-                <image>vietnam war</image>
-            </div>
-        </div>
+    return (
+        <Layout title="Select the Gallery">
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+            <Link to="../gallery">
+                <img className={styles.card} src={require('../data/bgImg.jpg')} />
+            </Link>
+        </Layout >
     )
 }
 

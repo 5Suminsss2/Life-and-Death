@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Black+Ops+One&family=Kumar+One&family=Limelight&family=Notable&family=Rakkas&display=swap');
 
+.main {
+    text-decoration: none;
+    color: #171717;
+}
 
 .header {
     display: flex;
+    position: fixed;
+    top: 0;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
     height: 56px;
     width: 100%;
     padding: 0 15px;
@@ -30,4 +35,12 @@
 
 .items:hover {
     background-color: #e7e7e7;
+}
+
+
+@media screen and (min-width: 767px) {
+    .header {
+        position: absolute;
+
+    }
 }

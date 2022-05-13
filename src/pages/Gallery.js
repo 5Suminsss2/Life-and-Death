@@ -1,26 +1,19 @@
-import Header from '../components/shared/Header';
+import { Link } from 'react-router-dom';
+import Layout from '../components/shared/Layout';
 import styles from "./Gallery.module.css";
 
-function Gallery(){
-    return(
-        <div>
-            <Header />
-            <div>
-                Vietnam war
-            </div>
-            <div>
-                <div>
-                    <image />
-                    <div>
-                        <div>title</div>
-                        <div>
-                            <image>heart</image>
-                            <image>favorites</image>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+import Card from '../components/utils/Card';
+
+function Gallery() {
+    return (
+        <Layout title="Vietnam War">
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
+        </Layout >
     )
 }
 

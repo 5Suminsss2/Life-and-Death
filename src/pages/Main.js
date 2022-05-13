@@ -12,7 +12,7 @@ function Main() {
                     At the Death's Door
                 </div>
                 <div className={styles.next}>
-                    <Link to="./gallery" className={styles.link}>Enter the Gallery</Link>
+                    <Link to="./select" className={styles.link} >Enter the Gallery</Link>
                 </div>
             </div>
         </div>

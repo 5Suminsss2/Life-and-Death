@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className={styles.header}>
             <div>
-                Life and Death
+                <Link to="/" className={styles.main}>Life and Death</Link>
             </div>
             <div className={styles.contents}>
                 <div>

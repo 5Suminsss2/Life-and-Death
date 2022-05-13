@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    height: 300px;
+    margin: 10px;
+
+}
+
+.cardImg {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 0 15px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.expression {
+    display: flex;
+    justify-content: space-between;
+}

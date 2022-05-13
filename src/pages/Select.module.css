@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Black+Ops+One&family=Kumar+One&family=Limelight&family=Notable&family=Rakkas&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+/*hover 시, 크기 늘리기 및 밝아지기 효과 적용 */
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    filter: brightness(150%)
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 300px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .card {
+        width: 300px;
+        margin-bottom: 5px;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .card {
+        width: 400px;
+        margin-bottom: 5px;
+    }
+}

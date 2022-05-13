@@ -27,9 +27,9 @@
 .next {
     display: flex;
     justify-content: center;
-    width: 150px;
-    height: 25px;
-    padding: 10px;
+    align-items: center;
+    width: 180px;
+    height: 30px;
     border-radius: 10px;
     background-color: #f0f8ff;
 

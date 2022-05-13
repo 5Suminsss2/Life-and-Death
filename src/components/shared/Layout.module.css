@@ -1,0 +1,45 @@
+.top {
+    height: 200px;
+    margin-top: 56px;
+    background-color: #2a2a2a;
+}
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #e4e6f3;
+    height: 200px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e6f3;
+    padding: 10px;
+    align-content: flex-start;
+    /*높이 꽉차게*/
+    /* height: calc(100vh - 256px); */
+}
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        overflow-y: scroll;
+        height: calc(100vh - 256px);
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        /* overflow-y: scroll; */
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
