@@ -14,7 +14,7 @@
 .card:hover {
     transform: scale(1.03);
     transition: transform 0.5s;
-    filter: brightness(150%)
+    filter: brightness(110%)
 }
 
 .link {
