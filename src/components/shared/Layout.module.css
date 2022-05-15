@@ -20,11 +20,11 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #e4e6f3;
+    background-color: #ffffff;
     padding: 10px;
     align-content: flex-start;
-    /*높이 꽉차게*/
-    /* height: calc(100vh - 256px); */
+    /* 높이 꽉차게
+    height: calc(100vh - 256px); */
 }
 
 

@@ -14,12 +14,16 @@ const Modal = (props) => {
                             &times;
                         </button>
                     </header>
-                    <main>{props.children}</main>
-                    <footer>
-                        <button className={styles.close} onClick={close}>
-                            close
-                        </button>
-                    </footer>
+                    <main className={styles.main}>
+                        <section className={styles.photoPart}>
+                            <img className={styles.photo} src={require('../../data/bgImg.jpg')} />
+                        </section>
+                        <section className={styles.infoPart}>
+                            <div className={styles.infoTitle}>Title ident in laborum consectesssssssssstur.</div>
+                            <div className={styles.author}>photo by. author</div>
+                            <div className={styles.description}>설명Commodo velit incididunt id pariatur ex minim. Endddddddddim ullamco mollit ut officia incididunt. Esse irure cillum commodo culpa eu ullamco proident adipisicing. Ullamco nostrud anim culpa ex elit sunt nulla id incididunt et fugiat magna et.</div>
+                        </section>
+                    </main>
                 </section>
             ) : null}
         </div>
