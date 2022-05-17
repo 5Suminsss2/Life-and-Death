@@ -1,11 +1,12 @@
 import styles from "./Modal.module.css";
 
-const Modal = (props) => {
-    const { open, close, header } = props;
-
+function Modal(props) {
+    const { open, close, header, data, index, name } = props;
+    // console.log(data);
+    console.log("modal", name)
     return (
         // 모달이 열릴때 openModal 클래스가 생성
-        <div className={open ? `${styles.openModal} ${styles.modal}` : styles.modal}>
+        <div className={open ? `${styles.openModal} ${styles.modal}` : styles.modal} key={index}>
             {open ? (
                 <section>
                     <header>
@@ -16,17 +17,18 @@ const Modal = (props) => {
                     </header>
                     <main className={styles.main}>
                         <section className={styles.photoPart}>
-                            <img className={styles.photo} src={require('../../data/bgImg.jpg')} />
+                            <img className={styles.photo} src={require('../../data/photos/Vietnam6.jpg')} />
                         </section>
                         <section className={styles.infoPart}>
-                            <div className={styles.infoTitle}>Title ident in laborum consectesssssssssstur.</div>
-                            <div className={styles.author}>photo by. author</div>
-                            <div className={styles.description}>설명Commodo velit incididunt id pariatur ex minim. Endddddddddim ullamco mollit ut officia incididunt. Esse irure cillum commodo culpa eu ullamco proident adipisicing. Ullamco nostrud anim culpa ex elit sunt nulla id incididunt et fugiat magna et.</div>
+                            <div className={styles.infoTitle}>{data.title}</div>
+                            <div className={styles.author}>photo by. {data.photographer}r</div>
+                            <div className={styles.description}>{data.description}</div>
                         </section>
                     </main>
                 </section>
-            ) : null}
-        </div>
+            ) : null
+            }
+        </div >
     );
 };
 

@@ -5,9 +5,9 @@ import { faHeart as FaHeartRegular, faStar as faStarReuglar } from "@fortawesome
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from './Modal';
+import photoData from "../../data/photoData.json";
 
-function Card() {
-
+function Card({ warName }) {
     //Like Button 
     const [like, setLike] = useState(false);
     //Favorites Button
@@ -43,10 +43,24 @@ function Card() {
         setModalOpen(false);
     };
 
+    function modalFunc(data, index) {
+        return (
+            <Modal warName={warName} data={data} key={index} open={modalOpen} close={closeModal} header="Modal heading" />
+        )
+    }
+
+    //war filter Function
+    const [filter, setFilter] = useState("전체");
+
+    function filterFunc(data) {
+        if ("Vietnam" === data.category) return true;
+        return false;
+    }
+
     return (
         <div>
             <div className={styles.card}>
-                <Link to="" className={styles.link} onClick={openModal}>
+                <Link to="" className={styles.link} onClick={openModal} state={{ warName: warName }}>
                     <img className={styles.cardImg} src={require('../../data/bgImg.jpg')} />
                 </Link>
                 <div className={styles.container}>
@@ -70,9 +84,7 @@ function Card() {
             </div>
 
             {/* modal part */}
-            <Modal open={modalOpen} close={closeModal} header="Modal heading">
-                modal창입니다!
-            </Modal>
+            {photoData['data'].filter(filterFunc).map(modalFunc)}
 
         </div>
 

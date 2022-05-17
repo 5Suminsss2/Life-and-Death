@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "id": "vietnam1",
+            "title": "The soldiers who protects civilians",
+            "thumbnail": "require('../../data/photos/Vietnam1.jpg')",
+            "photographer": "Kim Yong-taek",
+            "description": "1967년 7월14일 맹호부대 병사들이 수용소로 가기 직전의 남베트남 민간인들을 보호하고 있다.",
+            "category": "Vietnam"
+        },
+        {
+            "id": "vietnam2",
+            "title": "The napalm girl",
+            "thumbnail": "require('../../data/photos/Vietnam2.jpg')",
+            "photographer": "Nick Ut",
+            "description": "킴 푹이 벌거벗은 채 네이팜탄 폭격을 피해 달아나는 이 장면은 베트남전의 비극을 알리는 상징이 됐다.",
+            "category": "Vietnam"
+        },
+        {
+            "id": "vietnam3",
+            "title": "Saigon Execution",
+            "thumbnail": "require('../../data/photos/Vietnam3.jpg')",
+            "photographer": "Eddie Adams",
+            "description": "1968년 2월1일 베트콩의 ‘구정 대공세’ 때 길거리에서 행해진 즉결처형. 이 사진으로 미국의 여론은 크게 바뀌게 된다.",
+            "category": "Vietnam"
+        },
+        {
+            "id": "vietnam4",
+            "title": "Sacrifice of faith",
+            "thumbnail": "require('../../data/photos/vietnam4.jpg')",
+            "photographer": "Malcolm Wilde Browne",
+            "description": "틱꽝둑 스님이 남베트남 정부의 종교 탄압에 대한 항의로 분신하는 순간을 포착한 사진이다.",
+            "category": "Vietnam"
+        },
+        {
+            "id": "vietnam5",
+            "title": "Sacrifice of faith",
+            "thumbnail": "require('../../data/photos/vietnam5.jpg')",
+            "photographer": "Nick Ut",
+            "description": "전장을 누비며 헬기로 뛰어오며 구조를 요청하는 난민들",
+            "category": "Vietnam"
+        },
+        {
+            "id": "vietnam6",
+            "title": "The father who shows his son to a soldier",
+            "thumbnail": "require('../../data/photos/vietnam6.jpg')",
+            "photographer": "Horst Faas",
+            "description": "캄보디아 인근의 국경근처의 마을에서 군인들에 의해 살해된 아이의 시신을 아버지가 껴안고 지나는 군인들한테 보여주고 있다.",
+            "category": "Vietnam"
+        }
+    ]
+}
