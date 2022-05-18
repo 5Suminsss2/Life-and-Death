@@ -2,8 +2,8 @@
     "data": [
         {
             "id": "vietnam1",
-            "title": "The soldiers who protects civilians",
-            "thumbnail": "require('../../data/photos/Vietnam1.jpg')",
+            "title": "The soldiers and civilians",
+            "thumbnail": "/images/photos/Vietnam1.jpg",
             "photographer": "Kim Yong-taek",
             "description": "1967년 7월14일 맹호부대 병사들이 수용소로 가기 직전의 남베트남 민간인들을 보호하고 있다.",
             "category": "Vietnam"
@@ -11,7 +11,7 @@
         {
             "id": "vietnam2",
             "title": "The napalm girl",
-            "thumbnail": "require('../../data/photos/Vietnam2.jpg')",
+            "thumbnail": "/images/photos/Vietnam2.jpg",
             "photographer": "Nick Ut",
             "description": "킴 푹이 벌거벗은 채 네이팜탄 폭격을 피해 달아나는 이 장면은 베트남전의 비극을 알리는 상징이 됐다.",
             "category": "Vietnam"
@@ -19,7 +19,7 @@
         {
             "id": "vietnam3",
             "title": "Saigon Execution",
-            "thumbnail": "require('../../data/photos/Vietnam3.jpg')",
+            "thumbnail": "/images/photos/Vietnam3.jpg",
             "photographer": "Eddie Adams",
             "description": "1968년 2월1일 베트콩의 ‘구정 대공세’ 때 길거리에서 행해진 즉결처형. 이 사진으로 미국의 여론은 크게 바뀌게 된다.",
             "category": "Vietnam"
@@ -27,26 +27,266 @@
         {
             "id": "vietnam4",
             "title": "Sacrifice of faith",
-            "thumbnail": "require('../../data/photos/vietnam4.jpg')",
+            "thumbnail": "/images/photos/Vietnam4.jpg",
             "photographer": "Malcolm Wilde Browne",
             "description": "틱꽝둑 스님이 남베트남 정부의 종교 탄압에 대한 항의로 분신하는 순간을 포착한 사진이다.",
             "category": "Vietnam"
         },
         {
             "id": "vietnam5",
-            "title": "Sacrifice of faith",
-            "thumbnail": "require('../../data/photos/vietnam5.jpg')",
+            "title": "Helicopter",
+            "thumbnail": "/images/photos/Vietnam5.PNG",
             "photographer": "Nick Ut",
             "description": "전장을 누비며 헬기로 뛰어오며 구조를 요청하는 난민들",
             "category": "Vietnam"
         },
         {
             "id": "vietnam6",
-            "title": "The father who shows his son to a soldier",
-            "thumbnail": "require('../../data/photos/vietnam6.jpg')",
+            "title": "The father and his son",
+            "thumbnail": "/images/photos/Vietnam6.jpg",
             "photographer": "Horst Faas",
             "description": "캄보디아 인근의 국경근처의 마을에서 군인들에 의해 살해된 아이의 시신을 아버지가 껴안고 지나는 군인들한테 보여주고 있다.",
             "category": "Vietnam"
+        },
+        {
+            "id": "korean1",
+            "title": "Carrying ammunition",
+            "thumbnail": "/images/photos/Korean1.jpg",
+            "photographer": "Norman Williamst",
+            "description": "낙동강 전선에 노역자로 동원된 주민들이 탄약을 운반하고 있다. 이들은 비무장을 한 채 등짐으로 탄약과 무기 등을 운반하고 있다.",
+            "category": "Korean"
+        },
+        {
+            "id": "korean2",
+            "title": "UNF Giving Mass",
+            "thumbnail": "/images/photos/Korean2.jpg",
+            "photographer": "Richard Jr Ferguson",
+            "description": "미군의 패튼(Patton) 탱크를 배경으로, 가톨릭 군종신부인 프루델(Harold O. Prudell)이 미사를 드리고 있다.",
+            "category": "Korean"
+        },
+        {
+            "id": "korean3",
+            "title": "My name is Little Joe",
+            "thumbnail": "/images/photos/Korean3.jpg",
+            "photographer": "Ed Hoffman",
+            "description": "전쟁고아 중에서 운이 좋은 아이는 유엔군 병사가 양자로 삼아 돌보아 주기도 하였다. ‘리틀 조’라 불리는 전쟁고아가 마산 근처에서 미군과 함께 생활하고 있다. 아이는 자신의 별명이 붙여진 헬멧을 쓰고, 미군 병사 버스키(Alfred A. Busky)와 미군 준위 프레처(Emery Pretzer)의 보호를 받고 있다. ",
+            "category": "Korean"
+        },
+        {
+            "id": "korean4",
+            "title": "In Wolmido",
+            "thumbnail": "/images/photos/Korean4.jpg",
+            "photographer": "Ed Hoffman",
+            "description": "인천상륙작전 이후, 유엔군이 월미도에서 생포한 인민군 포로들이다. 벌거벗긴 채로 손을 들고 있다.",
+            "category": "Korean"
+        },
+        {
+            "id": "korean5",
+            "title": "The Death",
+            "thumbnail": "/images/photos/Korean5.jpg",
+            "photographer": "Ed Hoffman",
+            "description": "인민군 시체가 한강변 모래 속에 파묻혀 있다. 아마 1.4후퇴를 전후한 전투에서 목숨을 잃은 것으로 추정된다.",
+            "category": "Korean"
+        },
+        {
+            "id": "korean6",
+            "title": "The funeral for an Indian",
+            "thumbnail": "/images/photos/Korean6.jpg",
+            "photographer": "Ed Hoffman",
+            "description": "유엔위원회 멤버인 인도인 나야르(Col unni Nayar)의 화장을 미군과 국군이 지켜보고 있다. 그의 유해는 장작더미 위에 올려 져, 인도식으로 장례를 치렀다. 그는 한국의 자유를 위해 헌신하다 머나먼 남의 나라에서 한줌의 재로 생을 마감하였다. 나야르는 지프를 타고 가던 중 지뢰를 밟아 차가 폭발하면서 사망했다. ",
+            "category": "Korean"
+        },
+        {
+            "id": "afghan1",
+            "title": "Ballot not Bullet",
+            "thumbnail": "/images/photos/Afghan1.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "아프가니스탄 남부 칸다하르 외곽에서 학생들이 집으로 돌아오는 길에 '탄환이 아닌 투표용지'라고 쓰인 낙서 옆을 지나가고 있다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "afghan2",
+            "title": "The praying driver",
+            "thumbnail": "/images/photos/Afghan2.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "수천 명의 아프간 지도자들이 미국과의 안보 협정을 고려하기 위해 모인 카불에서 한 운전기사가 그의 버스 앞에서 수천 명의 아프간 지도자들이 미국과의 안보 협정을 고려하기 위해 만났다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "afghan3",
+            "title": "A toy gun",
+            "thumbnail": "/images/photos/Afghan3.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "아프가니스탄 카불에서 한 아프간 소년이 아이드 알피트르 축제를 기념하기 위해 다른 사람들과 회전목마에서 놀이기구를 타는 것을 즐기면서 장난감 총을 들고 있다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "afghan4",
+            "title": "The gun and flowers",
+            "thumbnail": "/images/photos/Afghan4.png",
+            "photographer": "Anja Niedringhaus",
+            "description": "한 아프간 경찰관은 와르다크 주의 수도인 마이단 샤르 근처의 검문소를 감시하고 있다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "afghan5",
+            "title": "A medevac helicopter",
+            "thumbnail": "/images/photos/Afghan5.png",
+            "photographer": "Anja Niedringhaus",
+            "description": "한 페르시아 소녀가 군 병원으로 가기 위해 헬기에서 이송되고 있다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "afghan6",
+            "title": "A makeshift school",
+            "thumbnail": "/images/photos/Afghan6.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "아프가니스탄 소년들이 아프가니스탄 넨가르하르 주 부디알리 마을에 있는 임시학교에서 공부하고 있다.",
+            "category": "Afghanistan"
+        },
+        {
+            "id": "bosnia1",
+            "title": "Crossing the sniper's street",
+            "thumbnail": "/images/photos/Bosnia1.jpg",
+            "photographer": "Roger M. Richards",
+            "description": "1993년 4월 보스니아 헤르체고비나 사라예보 포위전 당시 한 젊은 여성이 세르비아인 저격수의 총격을 피해 달려가고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "bosnia2",
+            "title": "In a bombed apartment",
+            "thumbnail": "/images/photos/Bosnia2.PNG",
+            "photographer": "David Turnley",
+            "description": "보스니아인들이 폭탄 맞은 아파트에서 신문을 읽고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "bosnia3",
+            "title": "The way to go to work",
+            "thumbnail": "/images/photos/Bosnia3.jpg",
+            "photographer": "Tom Stoddart",
+            "description": "한 여성이 전쟁 중인 사라예보 거리에서 당당하게 출근하고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "bosnia4",
+            "title": "Playing on the tank",
+            "thumbnail": "/images/photos/Bosnia4.PNG",
+            "photographer": "Odd Andersen",
+            "description": "그르바비차 인근 사라예보에서 탱크 위에서 한 소년이 놀고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "bosnia5",
+            "title": "A bosnian boy",
+            "thumbnail": "/images/photos/Bosnia5.jpg",
+            "photographer": "Odd Andersen",
+            "description": "한 보스니아 소년이 1996년 보스니아 북부의 임시 미군 기지 밖에 있는 철조망을 지나가고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "bosnia6",
+            "title": "The sniper alley",
+            "thumbnail": "/images/photos/Bosnia6.PNG",
+            "photographer": "Danilo Krstanovic",
+            "description": "스나이퍼 거리를 지나가기 위해 한 여성이 아이를 안고 뛰고 있다.",
+            "category": "Bosnian"
+        },
+        {
+            "id": "iraq1",
+            "title": "Runaway",
+            "thumbnail": "/images/photos/Iraq1.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "영국 탱크가 3월 30일 일요일 바스라 외곽의 이라크 주둔지에 포격을 가하자 이라크인들이 도망가고 있다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "iraq2",
+            "title": "A Good luck charm",
+            "thumbnail": "/images/photos/Iraq2.png",
+            "photographer": "Anja Niedringhaus",
+            "description": "2003년 3월 30일 일요일 바스라 외곽에서 한 이라크 여성이 다른 사람들과 함께 바스라 남부 마을에서 도망치면서 어린 아이를 안고 있다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "iraq3",
+            "title": "Runaway 2",
+            "thumbnail": "/images/photos/Iraq3.png",
+            "photographer": "Anja Niedringhaus",
+            "description": "2004년 11월 14일, 미 1사단 해병대 안자 니드링하우스(Anja Niedringhouse)가 그의 부대가 이라크 팔루자 서쪽 지역으로 진격할 때 행운의 부적으로 GI Joe 마스코트를 배낭에 넣고 이동하고 있다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "iraq4",
+            "title": "Denied treatment",
+            "thumbnail": "/images/photos/Iraq4.jpg",
+            "photographer": "Lee Jang-wook",
+            "description": "린지 아다리오가 2003년 4월 11일 이라크 키르쿠크의 의료시설에서 치료를 거부당한 부자의 사진을 찍고 있다. 뉴욕타임스에 있는 한국인 이장욱 기자가 이 순간을 촬영했다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "iraq5",
+            "title": "Not able to meet",
+            "thumbnail": "/images/photos/Iraq5.PNG",
+            "photographer": "Damir Sagolj",
+            "description": "2003년 3월 29일, 미 해군 제1해병사단 소속 HM1 리처드 바넷이 이라크 중부지역에서 한 이라크 어린이를 안고 있다. 현지 군인들이 민간인들을 미 해병대 주둔지로 강제 이동시키고 이라크의 한 가족을 찢어 놓았다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "iraq6",
+            "title": "A large pool of blood",
+            "thumbnail": "/images/photos/Iraq6.PNG",
+            "photographer": "Ali Abu Shish",
+            "description": "살폭탄테러가 발생한 현장에서 이라크 인부들이 피바다 근처에서 잔해를 치우고 있다. 자살 폭탄 테러범이 경찰 신병들과 붐비는 시장 근처에서 차를 폭발시켜 사담 후세인이 실각한 이후 이라크에서 단 한번의 피비린내 나는 공격으로 115명이 사망하고 148명이 부상을 입었다.",
+            "category": "Iraq"
+        },
+        {
+            "id": "libya1",
+            "title": "Close a gate of a cemetery",
+            "thumbnail": "/images/photos/Libya1.jpg",
+            "photographer": "Daniel Berehulak",
+            "description": "2011년 8월 28일 리비아 트리폴리에서 한 남자가 공동묘지의 문을 닫기 위해 이동하고 있다. 여전히 시르테에서는 카다피군과 반군 사이에 격렬한 전투가 계속되고 있다.",
+            "category": "Libya Civil"
+        },
+        {
+            "id": "libya2",
+            "title": "The Battle For Sirte",
+            "thumbnail": "/images/photos/Libya2.jpg",
+            "photographer": "John Cantlie",
+            "description": "한 어린 소년이 2011년 9월 8일 리비아 미스라타의 트리폴리 거리에서 NTC군에 의해 파괴된 카다피 왕당파 탱크 앞에 서있다. NTC군은 무아마르 카다피 대령의 고향인 시르테로 계속 진격하고 있다.",
+            "category": "Libya Civil"
+        },
+        {
+            "id": "libya3",
+            "title": "Opposition Rebels Battle",
+            "thumbnail": "/images/photos/Libya3.jpg",
+            "photographer": "John Moore",
+            "description": "반군이 2011년 3월 10일 리비아 라스 라누프에서 리비아 공군 전투기를 향해 로켓 추진 수류탄을 발사하고 있다. 무아마르 카다피 리비아 국가원수에 충성하는 정부군이 집중 포격과 공습을 가하자 반군 대부분이 도시를 탈출했다.",
+            "category": "Libya Civil"
+        },
+        {
+            "id": "libya4",
+            "title": "A greeting Libyan revel",
+            "thumbnail": "/images/photos/Libya4.jpg",
+            "photographer": "Anja Niedringhaus",
+            "description": "리비아 반군이 라스 라누프로 통하는 검문소에서 한 남자를 맞이했다. 반군은 친카다피 세력에 대한 국제사회의 공세에 용기를 얻어 일요일 수도를 향해 서쪽으로 진격했다.",
+            "category": "Libya Civil"
+        },
+        {
+            "id": "libya5",
+            "title": "A praying rebel",
+            "thumbnail": "/images/photos/Libya5.png",
+            "photographer": "Anja Niedringhaus",
+            "description": "반군 한 명이 리비아 아지다비야 시 외곽의 최전선에서 기도했다.",
+            "category": "Libya Civil"
+        },
+        {
+            "id": "libya6",
+            "title": "Libyan Rebels Sieze",
+            "thumbnail": "/images/photos/Libya6.jpg",
+            "photographer": "Daniel Berehulak",
+            "description": "2011년 8월 30일 리비아 트리폴리에서 벵가지 출신의 리비아 반군 병사들이 전 리비아 육군 호위함을 타고 도착하면서 축하하고 있다. 리비아 군 호위함의 도착은 나토 해상 봉쇄 이후 처음으로 트리폴리 항구에 입항한 군함이다. 리비아 반군의 증원 부대는 남아 있는 친카다피 충성세력에 맞서기 위해 오늘 벵가지에서 도착했다.",
+            "category": "Libya Civil"
         }
     ]
 }

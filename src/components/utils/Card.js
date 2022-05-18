@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import Modal from './Modal';
 import photoData from "../../data/photoData.json";
 
-function Card({ warName }) {
+function Card({ warName, data }) {
     //Like Button 
     const [like, setLike] = useState(false);
     //Favorites Button
@@ -53,19 +53,22 @@ function Card({ warName }) {
     const [filter, setFilter] = useState("전체");
 
     function filterFunc(data) {
-        if ("Vietnam" === data.category) return true;
+        if (warName === data.category) return true;
         return false;
     }
+    const test = "/images/photos/Afghan1.jpg";
 
     return (
         <div>
             <div className={styles.card}>
                 <Link to="" className={styles.link} onClick={openModal} state={{ warName: warName }}>
-                    <img className={styles.cardImg} src={require('../../data/bgImg.jpg')} />
+
+                    <img className={styles.cardImg} src={data.thumbnail} />
+
                 </Link>
                 <div className={styles.container}>
-                    <div className={styles.title}>title</div>
-                    <span>photographer</span>
+                    <div className={styles.title}>{data.title}</div>
+                    <span>{data.photographer}</span>
                     <hr />
                     <div className={styles.expression}>
                         {/* Like, Favorites  */}
@@ -84,7 +87,7 @@ function Card({ warName }) {
             </div>
 
             {/* modal part */}
-            {photoData['data'].filter(filterFunc).map(modalFunc)}
+            <Modal warName={warName} data={data} open={modalOpen} close={closeModal} header="Modal heading" />
 
         </div>
 

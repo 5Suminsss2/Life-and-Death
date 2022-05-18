@@ -6,7 +6,7 @@
 
 .card {
     width: 300px;
-    height: auto;
+    height: 200px;
     margin: 10px;
 }
 
@@ -14,11 +14,49 @@
 .card:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
-    filter: brightness(150%)
+    filter: brightness(50%)
 }
+
+.wrap {
+    position: relative;
+}
+
+/*hover 시, 크기 늘리기 및 밝아지기 효과 적용 */
+.wrap:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    filter: brightness(90%)
+}
+
+.wrap img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    vertical-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: #e4e6f3;
+    font-size: 1.5rem;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 5px 5px 5px #000;
+    z-index: 99;
+}
+
 
 @media screen and (max-width: 767px) {
     .card {
+        width: 300px;
+    }
+
+    .wrap img {
         width: 300px;
     }
 }
@@ -27,6 +65,13 @@
 @media screen and (min-width: 1025px) {
     .card {
         width: 300px;
+        height: 250px;
+        margin-bottom: 5px;
+    }
+
+    .wrap img {
+        width: 300px;
+        height: 250px;
         margin-bottom: 5px;
     }
 }
@@ -34,6 +79,11 @@
 
 @media screen and (min-width: 1300px) {
     .card {
+        width: 400px;
+        margin-bottom: 5px;
+    }
+
+    .wrap img {
         width: 400px;
         margin-bottom: 5px;
     }
