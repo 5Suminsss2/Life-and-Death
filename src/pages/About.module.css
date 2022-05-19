@@ -8,23 +8,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
-    background-color: rgb(220, 220, 220);
+    background-color: #dcdcdc;
+    height: 150vh;
+
 }
 
 .title {
+    position: absolute;
+    top: 70px;
     font-size: 3rem;
     font-family: 'Abril Fatface', cursive;
 }
 
 .line {
-    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 140px;
+    background-color: #3a3a3a3d;
     width: 70px;
     height: 1px;
     margin: 30px auto;
 }
 
 .contents {
+    position: absolute;
+    top: 140px;
+    padding: 3rem 6rem;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
     line-height: 1.5rem;
