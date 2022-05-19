@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Bevan:ital@0;1&family=Black+Ops+One&family=Kumar+One&family=Limelight&family=Notable&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    background-color: rgb(220, 220, 220);
+}
+
+.title {
+    font-size: 3rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.line {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.contents {
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 1.5rem;
+}
