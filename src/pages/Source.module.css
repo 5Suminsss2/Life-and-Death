@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     background-color: #dcdcdc;
-    height: 220vh;
+    height: 100vh;
 }
 
 .title {
@@ -32,9 +32,12 @@
     position: absolute;
     top: 140px;
     padding: 4rem 6rem;
+    width: 100vw;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
     line-height: 1.5rem;
+    background-color: #dcdcdc;
+    width: 100vw;
 }
 
 .sourcePart {
@@ -54,4 +57,13 @@
     text-align: left;
     font-family: 'Abril Fatface', cursive;
     color: #383838;
+    /*문자가 div 밖으로 나가는 것을 막아주는 기능*/
+    word-break: break-all;
+}
+
+
+@media screen and (max-width:500px) {
+    .contents {
+        padding: 3rem 3rem;
+    }
 }
