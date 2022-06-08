@@ -51,7 +51,7 @@ function SelectWar() {
                         <img src="/images/photos/Afghan1.jpg" />
                     </div>
                     <div className={styles.text}>
-                        <p>Bosnian War</p>
+                        <p>Afghanistan War</p>
                     </div>
                 </div>
             </Link>
